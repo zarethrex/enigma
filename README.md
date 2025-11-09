@@ -1,5 +1,5 @@
 # ENIGMA
-![python3.11](https://github.com/artemis-beta/enigma/workflows/python3.11/badge.svg) ![python3.12](https://github.com/artemis-beta/enigma/actions/workflows/enigma_py312.yml/badge.svg)![python3.13](https://github.com/artemis-beta/enigma/workflows/python3.13/badge.svg)![python3.14](https://github.com/artemis-beta/enigma/workflows/python3.14/badge.svg)
+![python3.11](https://github.com/artemis-beta/enigma/workflows/python3.11/badge.svg) ![python3.12](https://github.com/artemis-beta/enigma/actions/workflows/enigma_py312.yml/badge.svg)![python3.13](https://github.com/artemis-beta/enigma/workflows/python3.13/badge.svg)![python3.14](https://github.com/artemis-beta/enigma/workflows/enigma_py314.yml/badge.svg)
 
 This is a small application written in python which simulates both the M3 and M4, 3 and 4 rotor variants of the Enigma machine which was utilised by German forces during WWII to encode information.
 
