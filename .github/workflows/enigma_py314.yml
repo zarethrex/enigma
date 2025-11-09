@@ -13,10 +13,6 @@ jobs:
         - name: Install UV
           run: python -m pip install uv
         - name: Run Unit Tests
-          run: uv run pytest --cov=enigma --cov-report xml
+          run: uv run pytest --cov=enigma
         - name: Run Bandit
           run: uv run bandit -r enigma -c pyproject.toml
-        - name: "Upload coverage to Codecov"
-          uses: codecov/codecov-action@v3
-          with:
-            fail_ci_if_error: true
