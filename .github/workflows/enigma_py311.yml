@@ -11,8 +11,6 @@ jobs:
           with:
             python-version: '3.11'
         - name: Install Poetry
-          run: python -m pip install poetry
-        - name: Install Enigma
-          run: poetry install
+          run: python -m pip install uv
         - name: Run Unit Tests
-          run: poetry run pytest
+          run: uv run pytest
